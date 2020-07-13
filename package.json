@@ -1,0 +1,25 @@
+{
+  "name": "connectfull-backend-api",
+  "version": "1.0.0",
+  "description": "A place where professionals and companies connect, post a job, find a job",
+  "main": "db.js",
+  "scripts": {
+    "watch": "nodemon",
+    "start": "node db",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugene Peter Maestrado",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mongodb": "^3.5.7",
+    "nodemon": "^2.0.4",
+    "sanitize-html": "^1.24.0",
+    "validator": "^13.0.0"
+  }
+}
